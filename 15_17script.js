@@ -51,7 +51,7 @@ introduction_box.addEventListener('animationend',function(){
     Typing();  
 });
 button.addEventListener('click',function(e){
-    e.preventDefault
+    e.preventDefault();
     introduction_box.classList.remove('show-animation')
     ovlay.classList.remove('os')
     clearTimeout(typingTimer);
@@ -79,5 +79,3 @@ const observer=new IntersectionObserver((allEle)=>{
     });
 },{threshold:0.5});
 targetElements.forEach(el => observer.observe(el));
-
-

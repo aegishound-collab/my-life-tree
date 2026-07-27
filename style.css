@@ -54,7 +54,7 @@ header ul{
 header h1{
     color: rgba(109, 107, 105,0);
     font-size: 60px;
-    background-image: url(/image2/title.png);
+    background-image: url(image2/title.png);
     background-size:contain ;
     background-repeat:no-repeat ;
     background-position: center;
