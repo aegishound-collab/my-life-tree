@@ -67,7 +67,7 @@ header h1{
 }
 .wood {
     color: white;
-    height: 110vh;
+    min-height: 110vh;
     background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.65)),url("image2/360_F_828985104_2P8aeB2vhLSOSJqbBpKOfpH0wYdKN1Qn.jpg");
     background-repeat:no-repeat ;
     background-size:cover;
@@ -82,8 +82,9 @@ header h1{
 }
 .desert{
     color: white;
-    background-image: linear-gradient(rgba(0,0,0,0.65),rgba(0,0,0,0.4)),url("image2/5zxpyprbftpd1.png");    
-    height: 190vh; 
+    background-image: linear-gradient(rgba(0,0,0,0.65),rgba(0,0,0,0.4)),url("image2/5zxpyprbftpd1.png");
+    min-height: 100vh;
+    padding-bottom: 60px;
     background-repeat:no-repeat ;
     background-position:center ;
     background-size:cover ;
@@ -128,7 +129,8 @@ header h1{
     /*width: 80%;           /* 讓盒子跟著螢幕大小縮放 */
     /*max-width: 350px;     /* 但最寬不要超過 450px */
     width:350px;
-    height: 400px;
+    min-height: 400px;
+    height: auto;
     border-radius: 10%;
     background-color: black;
 }
@@ -488,7 +490,8 @@ article.ani_img{
     }
     .animal-gallery article{
         width: 300px;
-        height: 350px;
+        min-height: 350px;
+        height: auto;
         padding: 30px;
         gap: 13px;
     }
@@ -498,7 +501,8 @@ article.ani_img{
         object-fit: cover;
     }
     .desert{
-        height: 320vh;
+        min-height: 100vh;
+        height: auto;
     }
     .wood{
         height: 120vh;
